@@ -1,0 +1,72 @@
+@use "variables" as v;
+
+.site-header {
+  background: linear-gradient(90deg, v.$midnight-blue 0%, rgba(v.$midnight-blue, 0.8) 100%);
+  padding: 20px;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  box-shadow: 0 2px 10px rgba(v.$abyssal-grey, 0.3);
+}
+
+.main-navigation {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+
+  .wp-block-navigation__container {
+    display: flex;
+    gap: 20px;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+
+    .wp-block-navigation-item {
+      position: relative;
+
+      a {
+        color: v.$celestial-white;
+        text-decoration: none;
+        font-size: 1.2rem;
+        padding: 10px 15px;
+        transition: color 0.3s ease, text-shadow 0.3s ease;
+
+        &:hover,
+        &.current-menu-item {
+          color: v.$solar-flare;
+          text-shadow: 0 0 10px v.$solar-flare;
+        }
+
+        &::after {
+          content: "";
+          position: absolute;
+          width: 0;
+          height: 2px;
+          bottom: 5px;
+          left: 50%;
+          background-color: v.$solar-flare;
+          transition: width 0.3s ease, left 0.3s ease;
+        }
+
+        &:hover::after,
+        &.current-menu-item::after {
+          width: 100%;
+          left: 0;
+        }
+      }
+    }
+  }
+
+  .wp-block-navigation__responsive-container-open {
+    background-color: v.$midnight-blue;
+    border: none;
+    color: v.$celestial-white;
+    padding: 10px;
+    cursor: pointer;
+
+    &:hover {
+      background-color: v.$solar-flare;
+      color: v.$midnight-blue;
+    }
+  }
+}

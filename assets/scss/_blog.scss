@@ -1,0 +1,30 @@
+@use "variables" as v;
+
+.wp-block-post-title {
+  a {
+    color: v.$midnight-blue;
+    text-decoration: none;
+    font-size: 1.85rem;
+    position: relative;
+    transition: color 0.3s ease;
+
+    &::after {
+      content: "";
+      position: absolute;
+      width: 0;
+      height: 2px;
+      bottom: -5px;
+      left: 0;
+      background-color: v.$solar-flare;
+      transition: width 0.3s ease;
+    }
+
+    &:hover {
+      color: v.$solar-flare;
+
+      &::after {
+        width: 100%;
+      }
+    }
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "version": 2,
+  "settings": {
+    "appearanceTools": true,
+    "color": {
+      "palette": [
+        { "slug": "celestial-white", "color": "#ffffff", "name": "Celestial White" },
+        { "slug": "abyssal-grey", "color": "#333333", "name": "Abyssal Grey" },
+        { "slug": "solar-flare", "color": "#ffcc00", "name": "Solar Flare" },
+        { "slug": "midnight-blue", "color": "#1a2b4c", "name": "Midnight Blue" },
+        { "slug": "twilight-pink", "color": "#ff6f61", "name": "Twilight Pink" }
+      ]
+    },
+    "typography": {
+      "fontFamilies": [
+        { "fontFamily": "Manrope, sans-serif", "slug": "manrope", "name": "Manrope" },
+        { "fontFamily": "Beiruti, sans-serif", "slug": "beiruti", "name": "Beiruti" }
+      ],
+      "fontSizes": [
+        { "slug": "small", "size": "14px", "name": "Small" },
+        { "slug": "medium", "size": "18px", "name": "Medium" },
+        { "slug": "large", "size": "24px", "name": "Large" }
+      ]
+    },
+    "layout": {
+      "contentSize": "800px",
+      "wideSize": "1200px"
+    }
+  },
+  "styles": {
+    "typography": {
+      "fontFamily": "var(--wp--preset--font-family--manrope)",
+      "fontSize": "var(--wp--preset--font-size--medium)"
+    },
+    "color": {
+      "background": "var(--wp--preset--color--celestial-white)",
+      "text": "var(--wp--preset--color--abyssal-grey)"
+    },
+    "variations": {
+      "midnight-majesty": { "color": { "background": "var(--wp--preset--color--midnight-blue)", "text": "var(--wp--preset--color--celestial-white)" } },
+      "twilight-serenity": { "color": { "background": "var(--wp--preset--color--twilight-pink)", "text": "var(--wp--preset--color--abyssal-grey)" } },
+      "solar-ascension": { "color": { "background": "var(--wp--preset--color--solar-flare)", "text": "var(--wp--preset--color--midnight-blue)" } },
+      "cosmic-dawn": { "color": { "background": "#f0e7d5", "text": "#2b1f3a" } },
+      "stellar-voyage": { "color": { "background": "#0d1b2a", "text": "#e0e1dd" } },
+      "astral-harmony": { "color": { "background": "#e8d8c4", "text": "#4a2c2a" } },
+      "eternal-dusk": { "color": { "background": "#2a2d4a", "text": "#f4d35e" } },
+      "lunar-embrace": { "color": { "background": "#d9e4dd", "text": "#3b4f47" } },
+      "galactic-whisper": { "color": { "background": "#1f1f1f", "text": "#d4a5a5" } }
+    }
+  }
+}
