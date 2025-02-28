@@ -37,21 +37,19 @@
 
 ## Directory Structure
 
-\`\`\`
 eternal-odyssey/
 ├── assets/
-│   ├── css/              # Compiled CSS for editor
-│   ├── images/           # Theme images (add hero.jpg here)
-│   ├── js/               # JavaScript files
-│   └── scss/             # SCSS source files
-├── patterns/             # Block patterns
-├── templates/            # FSE templates
-├── parts/                # Template parts (header, footer)
-├── functions.php         # Theme setup and CPT registration
-├── style.css             # Main stylesheet (compiled)
-├── theme.json            # Theme configuration
-└── readme.md             # This file
-\`\`\`
+│   ├── css/                  # Compiled CSS for editor
+│   ├── images/               # Theme images (add hero.jpg here)
+│   ├── js/                   # JavaScript files
+│   └── scss/                 # SCSS source files
+├── patterns/                 # Block patterns
+├── templates/                # FSE templates
+├── parts/                    # Template parts (header, footer)
+├── functions.php             # Theme setup and CPT registration
+├── style.css                 # Main stylesheet (compiled)
+├── theme.json                # Theme configuration
+└── readme.md                 # This file
 
 ## Contributing
 
