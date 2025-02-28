@@ -1,7 +1,5 @@
 # Eternal Odyssey - WordPress Theme
 
-![Eternal Odyssey Theme](assets/images/hero.jpg)
-
 **Eternal Odyssey** is a modern, Full Site Editing (FSE) WordPress theme designed for versatility and visual appeal. Inspired by a cosmic journey, it combines sleek design with powerful customization options, making it perfect for blogs, portfolios, testimonials, and more.
 
 ## Features
@@ -34,22 +32,6 @@
 - WordPress 6.7 or higher
 - PHP 7.2 or higher
 - Sass (for compiling SCSS)
-
-## Directory Structure
-
-eternal-odyssey/
-  ├── assets/
-  │   ├── css/                  # Compiled CSS for editor
-  │   ├── images/               # Theme images (add hero.jpg here)
-  │   ├── js/                   # JavaScript files
-  │   └── scss/                 # SCSS source files
-  ├── patterns/                 # Block patterns
-  ├── templates/                # FSE templates
-  ├── parts/                    # Template parts (header, footer)
-  ├── functions.php             # Theme setup and CPT registration
-  ├── style.css                 # Main stylesheet (compiled)
-  ├── theme.json                # Theme configuration
-  └── readme.md                 # This file
 
 ## Contributing
 
